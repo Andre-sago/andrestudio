@@ -1,4 +1,4 @@
-# Documentación del Proyecto
+# Andre Sanchez 
 
 Bienvenido 👋  
 Esta es una **plantilla** basada en [MkDocs](https://www.mkdocs.org/) + [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) para cursos y proyectos.
@@ -9,6 +9,6 @@ Esta es una **plantilla** basada en [MkDocs](https://www.mkdocs.org/) + [Materia
 
 1. **Edita el nombre del sitio** en `mkdocs.yml`:
    ```yaml
-   site_name: Documentación del Curso
+   site_name:andrestudio
    theme:
      name: material
