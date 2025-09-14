@@ -5,6 +5,10 @@ Esta es una **plantilla** basada en [MkDocs](https://www.mkdocs.org/) + [Materia
 
 ---
 
+
+https://github.com/user-attachments/assets/ec7fd998-ff05-4d02-bd98-d89672494481
+
+
 ## Empezar rápido (3 pasos)
 
 1. **Edita el nombre del sitio** en `mkdocs.yml`:
