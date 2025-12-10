@@ -1,0 +1,792 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+        <link rel="next" href="comandos/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Plantilla para Documentación</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.2/css/all.css">
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#andre-sanchez" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="Plantilla para Documentación" class="md-header__button md-logo" aria-label="Plantilla para Documentación" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Plantilla para Documentación
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Andre Sanchez
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="Plantilla para Documentación" class="md-nav__button md-logo" aria-label="Plantilla para Documentación" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Plantilla para Documentación
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Andre Sanchez
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="comandos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Encabezados
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ejemplo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    📚 Ejemplo de Documentación del Proyecto
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="gitcmds/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🚀 Comandos básicos de Git (primeros pasos)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="andre-sanchez">Andre Sanchez</h1>
+<p>Bienvenido 👋<br />
+Esta es una <strong>plantilla</strong> basada en <a href="https://www.mkdocs.org/">MkDocs</a> + <a href="https://squidfunk.github.io/mkdocs-material/">Material for MkDocs</a> para cursos y proyectos.</p>
+<hr />
+<p>https://github.com/user-attachments/assets/ec7fd998-ff05-4d02-bd98-d89672494481</p>
+<p>https://github.com/user-attachments/assets/d4922ccd-4ad0-469a-8059-b94879381198</p>
+<p>Objetivo: Mostrar cómo haces que un motor cambie de dirección (gire hacia un lado y luego al contrario).</p>
+<p>Materiales:</p>
+<p>Motor DC</p>
+<p>Fuente de 5V o 12V (según el motor)</p>
+<p>Puente H (por ejemplo, L293D o L298N) </p>
+<p>Arduino (opcional)</p>
+<p>Cables</p>
+<p>Se muestra el motor girando hacia un sentido.</p>
+<p>Luego cambia la polaridad (o manda señal inversa desde Arduino).</p>
+<p>Se debe ver claramente que gira hacia el otro lado.</p>
+<p>https://github.com/user-attachments/assets/05784511-1efe-449d-b737-7d5d040a7ca7</p>
+<p>Servo motor 0° - 10° - 0° - 20°</p>
+<p>Qué quiero mostrar:
+Que puedo mover el servo a diferentes posiciones usando Arduino.</p>
+<p>Materiales:</p>
+<p>1 servo </p>
+<p>1 Arduino</p>
+<p>Cables jumper</p>
+<p>Aquí el servo está conectado al pin 9.
+Va a moverse de 0 grados a 10, regresa a 0 y luego a 20.
+Así podemos controlar su posición exacta.</p>
+<p>https://github.com/user-attachments/assets/326342b8-35cc-4fcb-9ba5-9b7911d7d537</p>
+<p>Motor con cambio de velocidad</p>
+<p>Qué quiero mostrar:
+Que el motor puede ir despacio y luego más rápido.</p>
+<p>Materiales:</p>
+<p>1 motor DC</p>
+<p>1 Arduino</p>
+<p>1 módulo L298N o transistor</p>
+<p>Cables</p>
+<p>Aquí el motor está conectado al pin 9 del Arduino, que es un pin PWM.
+Primero va lento, después más rápido y al final a máxima velocidad.</p>
+<p>https://github.com/user-attachments/assets/c1ed7cfd-c827-45a6-8024-0a384f7a08e4</p>
+<p><img alt="WhatsApp Image 2025-10-15 at 7 18 31 PM" src="https://github.com/user-attachments/assets/2501a92b-7dd1-495e-ac79-896cab4bf9bb" /></p>
+<p>Durante esta semana logramos construir un pequeño coche para participar en una competencia que se llevó a cabo el 17 de octubre.
+Tuvimos aproximadamente dos semanas para planear y realizar el proyecto.</p>
+<p>Para la estructura del coche, utilizamos una base de MDF cortada a medida, llantas unidireccionales, un portapilas, dos puentes H, cables, pilas, y una programación eficiente que permitió controlar correctamente el movimiento del vehículo.</p>
+<h1 id="robot-con-vision-por-computadora-y-control-pid">Robot con Visión por Computadora y Control PID</h1>
+<h2 id="descripcion-general">Descripción General</h2>
+<p>Este proyecto consiste en un <strong>robot balanceador con plataforma móvil</strong>, controlado mediante <strong>visión por computadora (OpenCV)</strong> y estabilizado con <strong>dos servomotores MG996R</strong>. El sistema detecta una <strong>pelota azul</strong> sobre una plataforma negra y ajusta la inclinación mediante un <strong>control PID en tiempo real</strong>.</p>
+<p>El robot fue construido utilizando:</p>
+<ul>
+<li><strong>2 servomotores MG996R de 15 kg</strong></li>
+<li><strong>Estructura y articulaciones impresas en 3D</strong></li>
+<li><strong>Plataforma de MDF</strong></li>
+<li><strong>ESP32 con comunicación por Bluetooth</strong></li>
+<li><strong>Python + OpenCV para visión por computadora</strong></li>
+</ul>
+<hr />
+<h2 id="autores">Autores</h2>
+<ul>
+<li>Eduardo Salamanca</li>
+<li>Juan Carlos Pérez</li>
+<li>André Sánchez</li>
+<li>Sebastián Sánchez</li>
+</ul>
+<hr />
+<h2 id="caracteristicas-principales">Características Principales</h2>
+<ul>
+<li>Detección de <strong>plataforma negra</strong> mediante segmentación HSV.</li>
+<li>Detección de <strong>pelota azul</strong> y cálculo preciso del centro.</li>
+<li>Control PID ajustable en tiempo real mediante <strong>sliders en OpenCV</strong>.</li>
+<li>Comunicación serial Bluetooth con ESP32.</li>
+<li>Movimientos suaves gracias a filtros y suavizado.</li>
+</ul>
+<hr />
+<h2 id="enlace-al-video-de-funcionamiento">Enlace al Video de Funcionamiento</h2>
+<p><a href="https://youtu.be/BvbTCJa57hE?si=qvqjtdl9Kl7VjMze">Video demostrativo del robot</a></p>
+<blockquote>
+<p>Demostración del sistema detectando la pelota, calculando la posición y moviendo los servomotores en tiempo real.</p>
+</blockquote>
+<hr />
+<h2 id="hardware-utilizado">Hardware Utilizado</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Componente</th>
+<th style="text-align: center;">Cant.</th>
+<th>Nota</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">Servomotor MG996R</td>
+<td style="text-align: center;">2</td>
+<td>15 kg torque</td>
+</tr>
+<tr>
+<td style="text-align: right;">ESP32</td>
+<td style="text-align: center;">1</td>
+<td>Control y comunicación</td>
+</tr>
+<tr>
+<td style="text-align: right;">Plataforma MDF</td>
+<td style="text-align: center;">1</td>
+<td>Soporte físico</td>
+</tr>
+<tr>
+<td style="text-align: right;">Piezas impresas en 3D</td>
+<td style="text-align: center;">4+</td>
+<td>Articulaciones y brazos</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="software-utilizado">Software Utilizado</h2>
+<ul>
+<li><strong>Python 3.10+</strong></li>
+<li><strong>OpenCV</strong></li>
+<li><strong>NumPy</strong></li>
+<li><strong>PySerial</strong></li>
+<li><strong>Arduino IDE</strong></li>
+</ul>
+<hr />
+<h2 id="funcionamiento">Funcionamiento</h2>
+<h3 id="1-deteccion-de-plataforma">1. Detección de Plataforma</h3>
+<p>Se segmenta el área negra mediante un threshold en HSV:</p>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">lower_black</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">])</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="n">upper_black</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">180</span><span class="p">,</span> <span class="mi">255</span><span class="p">,</span> <span class="n">THRESHOLD_PLATAFORMA</span><span class="p">])</span>
+</span></code></pre></div>
+<p>Se obtiene el contorno más grande y su centro.</p>
+<h3 id="2-deteccion-de-pelota-azul">2. Detección de Pelota Azul</h3>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">LOW_BLUE</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">100</span><span class="p">,</span> <span class="mi">150</span><span class="p">,</span> <span class="mi">70</span><span class="p">])</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="n">HIGH_BLUE</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">130</span><span class="p">,</span> <span class="mi">255</span><span class="p">,</span> <span class="mi">255</span><span class="p">])</span>
+</span></code></pre></div>
+<p>Se calcula centro y radio para validar detección.</p>
+<h3 id="3-calculo-de-error">3. Cálculo de Error</h3>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="n">error_x</span> <span class="o">=</span> <span class="n">centro_pelota</span><span class="o">.</span><span class="n">x</span> <span class="o">-</span> <span class="n">centro_plataforma</span><span class="o">.</span><span class="n">x</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="n">error_y</span> <span class="o">=</span> <span class="n">centro_pelota</span><span class="o">.</span><span class="n">y</span> <span class="o">-</span> <span class="n">centro_plataforma</span><span class="o">.</span><span class="n">y</span>
+</span></code></pre></div>
+<h3 id="4-control-pid">4. Control PID</h3>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="n">output_x</span> <span class="o">=</span> <span class="n">Kp</span><span class="o">*</span><span class="n">error_x</span> <span class="o">+</span> <span class="n">Ki</span><span class="o">*</span><span class="n">integral_x</span> <span class="o">+</span> <span class="n">Kd</span><span class="o">*</span><span class="n">derivative_x</span>
+</span></code></pre></div>
+<p>Sliders en OpenCV permiten ajustar Kp, Ki y Kd.</p>
+<h3 id="5-envio-al-esp32">5. Envío al ESP32</h3>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="n">mensaje</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="nb">int</span><span class="p">(</span><span class="n">current_x</span><span class="p">)</span><span class="si">}</span><span class="s2">,</span><span class="si">{</span><span class="nb">int</span><span class="p">(</span><span class="n">current_y</span><span class="p">)</span><span class="si">}</span><span class="se">\n</span><span class="s2">&quot;</span>
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="n">esp32</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">mensaje</span><span class="o">.</span><span class="n">encode</span><span class="p">())</span>
+</span></code></pre></div>
+<hr />
+<h2 id="mecanica">Mecánica</h2>
+<p><img alt="Multimedia" src="https://github.com/user-attachments/assets/925b56c5-983c-4463-8b97-83ee4fd21169" /><img alt="Multimedia (1)" src="https://github.com/user-attachments/assets/f7d7f766-1d27-45a5-99fc-aa2649a0c96f" /><img alt="Foto seleccionada" src="https://github.com/user-attachments/assets/6f1e95bc-75f0-48e3-ade8-899db7e5f94b" /></p>
+<hr />
+<h2 id="codigo-p">Código P</h2>
+<p>Python (Visión por Computadora)</p>
+<p>```python
+import cv2
+import time
+import numpy as np
+import serial
+import serial.tools.list_ports</p>
+<h1 id="-configuracion-serial-bluetooth-">------------------- Configuración Serial Bluetooth -------------------</h1>
+<p>esp32_port = 'COM3'
+baud_rate = 115200</p>
+<p>print("=" * 50)
+print("Intentando conectar con ESP32...")
+print(f"Puerto: {esp32_port} | Baudios: {baud_rate}")</p>
+<p>def listar_puertos():
+    puertos = serial.tools.list_ports.comports()
+    print("\n Puertos COM disponibles:")
+    if len(puertos) == 0:
+        print("  No se encontraron puertos COM")
+    for puerto in puertos:
+        print(f"   • {puerto.device}: {puerto.description}")
+    print()</p>
+<p>listar_puertos()</p>
+<p>try:
+    esp32 = serial.Serial(esp32_port, baud_rate, timeout=1)
+    time.sleep(2)
+    print(f" ¡Conectado al ESP32 en {esp32_port}!")
+except serial.SerialException as e:
+    print(f" Error de conexión serial: {e}")
+    print("\n Posibles soluciones:")
+    print("   1. Verifica que el puerto COM sea correcto")
+    print("   2. Cierra el IDE de Arduino si está abierto")
+    print("   3. Cierra cualquier monitor serial activo")
+    print("   4. Desconecta y reconecta el ESP32")
+    print("   5. Verifica que el ESP32 esté encendido")
+    esp32 = None
+except Exception as e:
+    print(f" Error inesperado: {e}")
+    esp32 = None</p>
+<p>print("=" * 50)</p>
+<h1 id="-configuracion-camara-">------------------- Configuración cámara -------------------</h1>
+<p>cap = cv2.VideoCapture(1)
+cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
+cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)</p>
+<p>if not cap.isOpened():
+    print("Error: No se pudo abrir la cámara")
+    exit()</p>
+<h1 id="-posicion-inicial-servos-">------------------- Posición inicial servos -------------------</h1>
+<p>center_angle = 50
+current_x = center_angle
+current_y = center_angle
+DEAD_ZONE = 15  # Zona muerta reducida
+smoothing = 0.3  # Suavizado reducido para respuesta más rápida</p>
+<h1 id="-parametros-pid-ajustables-">------------------- Parámetros PID ajustables -------------------</h1>
+<p>Kp = 0.15
+Ki = 0.001
+Kd = 0.20</p>
+<p>prev_error_x = 0
+prev_error_y = 0
+integral_x = 0
+integral_y = 0</p>
+<p>MAX_INTEGRAL = 50</p>
+<h1 id="-parametros-de-deteccion-">------------------- Parámetros de detección -------------------</h1>
+<h1 id="threshold-para-plataforma-negra-0-255-valor-v-en-hsv">Threshold para plataforma NEGRA (0-255, valor V en HSV)</h1>
+<p>THRESHOLD_PLATAFORMA = 120  # Ampliado para detectar más tonos
+AREA_MIN_PLATAFORMA = 1000  # Área mínima del cuadrado</p>
+<h1 id="rango-hsv-para-pelota-azul">Rango HSV para pelota azul</h1>
+<p>LOW_BLUE = np.array([100, 150, 70])
+HIGH_BLUE = np.array([130, 255, 255])
+AREA_MIN_PELOTA = 200
+RADIO_MIN_PELOTA = 8</p>
+<h1 id="-funcion-para-limitar-valores-">------------------- Función para limitar valores -------------------</h1>
+<p>def constrain(value, min_val, max_val):
+    return max(min_val, min(max_val, value))</p>
+<h1 id="-callbacks-para-sliders-">------------------- Callbacks para sliders -------------------</h1>
+<p>def update_kp(val):
+    global Kp
+    Kp = val / 100.0  # Slider 0-100, valor real 0.00-1.00
+    print(f"Kp = {Kp:.3f}")</p>
+<p>def update_ki(val):
+    global Ki
+    Ki = val / 1000.0  # Slider 0-100, valor real 0.000-0.100
+    print(f"Ki = {Ki:.4f}")</p>
+<p>def update_kd(val):
+    global Kd
+    Kd = val / 100.0  # Slider 0-100, valor real 0.00-1.00
+    print(f"Kd = {Kd:.3f}")</p>
+<h1 id="-crear-ventana-de-control-">------------------- Crear ventana de control -------------------</h1>
+<p>cv2.namedWindow('Control PID')
+cv2.createTrackbar('Kp x100', 'Control PID', int(Kp * 100), 100, update_kp)
+cv2.createTrackbar('Ki x1000', 'Control PID', int(Ki * 1000), 100, update_ki)
+cv2.createTrackbar('Kd x100', 'Control PID', int(Kd * 100), 100, update_kd)</p>
+<p>prev_time = time.time()
+print("=" * 50)
+print("Sistema de Balance: Plataforma + Pelota")
+print("=" * 50)
+print("CONFIGURACIÓN:")
+print(f"  • Centro servos: {center_angle}° (Rango: 0-180°)")
+print(f"  • Zona muerta: ±{DEAD_ZONE} píxeles")
+print(f"  • Suavizado: {smoothing}")
+print(f"  • Threshold plataforma: {THRESHOLD_PLATAFORMA}")
+print(f"  • PID: Kp={Kp} Ki={Ki} Kd={Kd}")
+print("\nDETECCIÓN:")
+print("  • PLATAFORMA NEGRA (HSV): Detecta área más grande de tonos oscuros")
+print("  • PELOTA AZUL: Posición para calcular error")
+print("  • Usa teclas '1'/'2' para ajustar threshold")
+print("\nCONTROLES:")
+print("  • 'q' → Salir")
+print("  • 'c' → Resetear integrales")
+print("  • '1' → Threshold -5")
+print("  • '2' → Threshold +5")
+print("  • Sliders → Ajustar PID en tiempo real")
+print("=" * 50)</p>
+<p>frame_count = 0
+fps_time = time.time()
+fps = 0</p>
+<p>while True:
+    ret, frame = cap.read()
+    if not ret:
+        print("Error: No se pudo leer frame de la cámara")
+        break</p>
+<div class="language-text highlight"><pre><span></span><code>frame = cv2.flip(frame, 1)
+height, width = frame.shape[:2]
+centrox, centroy = width//2, height//2
+
+# ===============================================================
+# DETECCIÓN 1: PLATAFORMA NEGRA (HSV) - ÁREA MÁS GRANDE
+# ===============================================================
+hsv_plat = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
+
+lower_black = np.array([0, 0, 0])
+upper_black = np.array([180, 255, THRESHOLD_PLATAFORMA])
+
+mask_plataforma = cv2.inRange(hsv_plat, lower_black, upper_black)
+
+kernel_plat = np.ones((7,7), np.uint8)
+mask_plataforma = cv2.morphologyEx(mask_plataforma, cv2.MORPH_CLOSE, kernel_plat)
+mask_plataforma = cv2.morphologyEx(mask_plataforma, cv2.MORPH_OPEN, kernel_plat)
+mask_plataforma = cv2.dilate(mask_plataforma, kernel_plat, iterations=1)
+
+contours_plat, _ = cv2.findContours(mask_plataforma, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+area_max_plat = 0
+contorno_plat = None
+centro_plataforma = None
+rectangulo_info = None
+
+for c in contours_plat:
+    area = cv2.contourArea(c)
+    if area &gt; area_max_plat and area &gt; AREA_MIN_PLATAFORMA:
+        area_max_plat = area
+        contorno_plat = c
+        rectangulo_info = cv2.minAreaRect(c)
+
+        M = cv2.moments(c)
+        if M[&quot;m00&quot;] != 0:
+            cx_plat = int(M[&quot;m10&quot;] / M[&quot;m00&quot;])
+            cy_plat = int(M[&quot;m01&quot;] / M[&quot;m00&quot;])
+            centro_plataforma = (cx_plat, cy_plat)
+
+# ===============================================================
+# DETECCIÓN 2: PELOTA AZUL
+# ===============================================================
+hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
+mask_pelota = cv2.inRange(hsv, LOW_BLUE, HIGH_BLUE)
+
+kernel_pelota = np.ones((5,5), np.uint8)
+mask_pelota = cv2.morphologyEx(mask_pelota, cv2.MORPH_OPEN, kernel_pelota)
+mask_pelota = cv2.morphologyEx(mask_pelota, cv2.MORPH_CLOSE, kernel_pelota)
+mask_pelota = cv2.dilate(mask_pelota, kernel_pelota, iterations=1)
+
+contours_pelota, _ = cv2.findContours(mask_pelota, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+area_max_pelota = 0
+contorno_pelota = None
+centro_pelota = None
+radio_pelota = 0
+
+for c in contours_pelota:
+    area = cv2.contourArea(c)
+    if area &gt; area_max_pelota:
+        area_max_pelota = area
+        contorno_pelota = c
+        (x_pel, y_pel), radio_pelota = cv2.minEnclosingCircle(c)
+        if radio_pelota &gt; RADIO_MIN_PELOTA and area &gt; AREA_MIN_PELOTA:
+            centro_pelota = (int(x_pel), int(y_pel))
+
+# ===============================================================
+# VISUALIZACIÓN
+# ===============================================================
+out_original = frame.copy()
+
+mask_combinada = cv2.bitwise_or(mask_plataforma, mask_pelota)
+out_deteccion = cv2.cvtColor(mask_combinada, cv2.COLOR_GRAY2BGR)
+
+out_deteccion[mask_plataforma &gt; 0] = [255, 0, 0]
+out_deteccion[mask_pelota &gt; 0] = [0, 255, 255]
+
+# ===============================================================
+# CALCULAR TIEMPO
+# ===============================================================
+current_time = time.time()
+dt = current_time - prev_time
+prev_time = current_time
+if dt &lt; 0.001:
+    dt = 0.001
+
+# ===============================================================
+# CONTROL PID - SOLO CAMBIO: ERROR X
+# ===============================================================
+plataforma_detectada = (contorno_plat is not None and area_max_plat &gt; AREA_MIN_PLATAFORMA and centro_plataforma is not None)
+pelota_detectada = (contorno_pelota is not None and centro_pelota is not None)
+
+if plataforma_detectada:
+    if rectangulo_info:
+        box = cv2.boxPoints(rectangulo_info)
+        box = np.intp(box)
+        cv2.drawContours(out_original, [box], 0, (0, 255, 0), 3)
+        cv2.drawCon
+</code></pre></div>
+<p>https://www.youtube.com/watch?v=BvbTCJa57hE</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["content.code.copy", "content.tooltips"], "search": "assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+    
+  </body>
+</html>
